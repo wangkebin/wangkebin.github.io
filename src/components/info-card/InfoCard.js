@@ -12,6 +12,7 @@ import { SocialIcon } from 'react-social-icons';
 import SchoolIcon from '@material-ui/icons/School';
 import profile from '../../data/profile';
 import styles from './InfoCard.module.css';
+import { ListItemIcon } from '@material-ui/core';
 
 const socialMediaList = profile.SocialMedias;
 
@@ -35,11 +36,12 @@ class InfoCard extends Component {
                         </Typography> */}
                     </Grid>
                     <Divider className={styles.divider} variant="middle" />
-                    <Grid item xs={12}>
+                    <Grid item xs={10}>
                         <List className={styles.infoList}>
                             {profile.spotlights.map((spotlight, i) => {
                             return (
-                                <ListItem>
+                            <ListItem>
+                                <ListItemIcon></ListItemIcon>
                                 <Avatar url={spotlight.avatarlink}>
                                 </Avatar>
                                 <ListItemText primary={spotlight.desc}/>
