@@ -13,6 +13,7 @@ import SchoolIcon from '@material-ui/icons/School';
 import profile from '../../data/profile';
 import styles from './InfoCard.module.css';
 import { ListItemIcon } from '@material-ui/core';
+import Pdf from "../../Kebin_Resume.pdf";
 
 const socialMediaList = profile.SocialMedias;
 
@@ -48,8 +49,11 @@ class InfoCard extends Component {
                             </ListItem>
                             );
                         })}
+                        <ListItem><a href = {Pdf}>Resume</a></ListItem>
                         </List>
+                        
                     </Grid>
+
                     {/* <Divider className={styles.divider} variant="middle" />
                     <Grid item xs={12}>
                         <List className={styles.infoList}>

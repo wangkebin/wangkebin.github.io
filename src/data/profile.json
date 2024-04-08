@@ -58,13 +58,12 @@
       },
       {
         "avatarlink": "",
-        "desc": "You can download my resume at https://github.com/wangkebin/wangkebin.github.io/blob/main/Kebin_Resume.pdf",
-        "link": "https://wangkebin.github.io/Kebin_Resume.pdf"
+        "desc": "You can download my resume",
+        "link": "resume"
       },
       {
         "avatarlink": "",
-        "desc": "You can reach me on Linkedin at https://www.linkedin.com/in/wangkebin/",
-        "link": "https://www.linkedin.com/in/wangkebin/"
+        "desc": "You can reach me on Linkedin at https://www.linkedin.com/in/wangkebin/"
       }
     ],
     "Skills": [
