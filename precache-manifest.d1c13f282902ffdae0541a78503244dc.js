@@ -1,27 +1,31 @@
 self.__precacheManifest = [
   {
-    "revision": "129c4cd2610fec280ed0",
+    "revision": "ee4519da508e517c75b3",
     "url": "/static/css/main.79198b37.chunk.css"
   },
   {
-    "revision": "129c4cd2610fec280ed0",
-    "url": "/static/js/main.b9b0ac5d.chunk.js"
+    "revision": "ee4519da508e517c75b3",
+    "url": "/static/js/main.a9099a8f.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
     "url": "/static/js/runtime~main.a8a9905a.js"
   },
   {
-    "revision": "0f34239e74a0b35443b2",
+    "revision": "994ed2b109ca3847dbb7",
     "url": "/static/css/2.556faddf.chunk.css"
   },
   {
-    "revision": "0f34239e74a0b35443b2",
-    "url": "/static/js/2.995898cf.chunk.js"
+    "revision": "994ed2b109ca3847dbb7",
+    "url": "/static/js/2.0450a161.chunk.js"
   },
   {
     "revision": "43d1d1db26878698569fa007578d8779",
     "url": "/static/media/kb.43d1d1db.jpg"
+  },
+  {
+    "revision": "c4ba7c12a97cfcf5f6311e6e9057b6c6",
+    "url": "/static/media/Kebin_Resume.c4ba7c12.pdf"
   },
   {
     "revision": "cd4b1396b837ec0dbccb60ff1acc9b47",
@@ -36,7 +40,7 @@ self.__precacheManifest = [
     "url": "/static/media/demo.67edcff8.svg"
   },
   {
-    "revision": "2e03ef884545710eede300c195b1e807",
+    "revision": "d7c1fb42acec07f3eaa6bed6ed6272f1",
     "url": "/index.html"
   }
 ];
