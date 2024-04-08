@@ -1,0 +1,60 @@
+.infoGrid .bigAvatar {
+    margin: 10px;
+    width: 300px;
+    height: 300px;
+    border: 3px solid rgba(232, 232, 232, 0.8);
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.75) inset;
+    -moz-box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.75) inset;
+    -webkit-box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.75) inset;
+}
+
+.infoGrid .name {
+    text-align: center;
+    color: rgb(27, 156, 25)
+}
+
+.infoGrid .position {
+    text-align: center;
+    margin-top: 5px;
+    color:rgb(27, 156, 25);
+    font-style: italic;
+}
+
+.infoGrid .introduction {
+    color: rgb(27, 156, 25);
+    margin: 15px 70px;
+    text-align: center;
+}
+
+.infoGrid .divider {
+    margin: 0;
+    border: none;
+    flex-shrink: 0;
+    background-color: white;
+    width: 320px;
+}
+
+.infoGrid .infoList {
+    margin: 10px 114px;
+    color: rgb(27, 156, 25);
+}
+
+.infoGrid .socialMedias {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.infoGrid .socialMediasIcon {
+    margin: 0 20px;
+}
+
+.infoList span {
+    color: rgb(27, 156, 25);
+}
+
+.infoList .infoIcon {
+    color: #3f51b5;
+    background-color: rgb(27, 156, 25);
+}
