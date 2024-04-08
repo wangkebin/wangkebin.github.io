@@ -1,23 +1,16 @@
-import './App.css';
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from './pages/Home';
-import Experience from './pages/Experience';
-import Projects from './pages/Projects';
-import Navbar from './components/Navbar';
+import React, { Component } from 'react';
+import InfoPanel from './components/info-panel/InfoPanel';
+import DetailTabPanel from './components/detail-tabpanel/DetailTabPanel';
 
-function App() {
-  return (
-    <div className="App">
-      <Router>
-        <Navbar></Navbar>
-        <Routes>
-          <Route path="/" element={<Home />}/>
-          <Route path="/projects" element={<Projects />}/>
-          <Route path="/experience" element={<Experience />}/>
-        </Routes>
-      </Router>
-    </div>
-  );
+class App extends Component {
+    render() {
+        return (
+            <div className="App">
+                {/* <InfoPanel></InfoPanel> */}
+                <DetailTabPanel></DetailTabPanel>
+            </div>
+        );
+    }
 }
 
 export default App;
