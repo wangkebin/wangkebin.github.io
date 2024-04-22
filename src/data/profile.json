@@ -3,7 +3,7 @@
     "Position": "Software Developer",
     "Description": "Welcome to my website. My name is Kebin Wang,I ❤️ Programming.",
     "Address": "Lexington, MA",
-    "Company": "Future Technologies",
+    "Company": "TBD",
     "School": "Boston University",
     "SocialMedias": [
       "https://github.com/wangkebin",
@@ -19,7 +19,7 @@
             "title": "Senior Software Engineer | Cloud Platform",
             "description": "Build and maintain micro services clusters on ECS/EKS.",
             "startDate": "2021-10",
-            "currentJob": true,
+            "endDate": "2023-11",
             "location": "Orlando, FL"
           }
         ]
