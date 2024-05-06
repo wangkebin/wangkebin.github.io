@@ -22,7 +22,7 @@ npm start
 Now you should see the app is running in http://localhost:3000
 
 ### 2. Customize with your data
-To customize it with your perosnal information, all you need to do is modify the json file in `./src/data/profile.json` and upload your profile picture to `./src/img/self.jpeg`
+To customize it with your personal information, all you need to do is modify the json file in `./src/data/profile.json` and upload your profile picture to `./src/img/self.jpeg`
 
 ### 3. Publish your website
 Currently only github page is supported. To host your website with Github.
